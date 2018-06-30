@@ -1,6 +1,6 @@
 {
   "name": "@flockcore/wrtc",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Create a dWeb network flock of peer-to-peer connections using webrtc and a dWeb Tower",
   "contributors": [
     "Jared Rice Sr. <jared@dwebs.io>",
