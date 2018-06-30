@@ -1,0 +1,61 @@
+Arguments: 
+  /Users/thejoker/.nvm/versions/node/v10.4.1/bin/node /usr/local/bin/yarn publish
+
+PATH: 
+  /usr/local/opt/openssl/bin:/Users/thejoker/.nvm/versions/node/v10.4.1/bin:/usr/local/opt/postgresql@9.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Xamarin Workbooks.app/Contents/SharedSupport/path-bin:/Users/thejoker/.rvm/bin:/Users/thejoker/.rvm/bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  10.4.1
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "@flockcore/wrtc",
+    "version": "0.1.1",
+    "description": "Create a dWeb network flock of peer-to-peer connections using webrtc and a dWeb Tower",
+    "contributors": [
+      "Jared Rice Sr. <jared@dwebs.io>",
+      "Distributed Webs Project, LLC. <labs@distributedwebs.org>"
+    ],
+    "license": "MIT",
+    "main": "index.js",
+    "scripts": {
+      "test": "standard && tape test.js"
+    },
+    "dependencies": {
+      "@dwcore/dws2": "dwcore/dws2#master",
+      "@dwebs/peer": "distributedwebs/peer#master",
+      "cuid": "^1.2.4",
+      "debug": "^2.2.0",
+      "inherits": "^2.0.1",
+      "once": "^1.3.1",
+    },
+    "devDependencies": {
+      "@dwebs/tower": "distributedweb/tower#master",
+      "electron-webrtc": "^0.2.6",
+      "standard": "^7.1.2",
+      "tape": "^4.6.0"
+    },
+    "publishConfig": {
+      "access": "public"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  SyntaxError: /Users/thejoker/LIBRARIES/flockcore/packages/web-rtc/package.json: Unexpected token } in JSON at position 595
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1036:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:98:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:109:13
