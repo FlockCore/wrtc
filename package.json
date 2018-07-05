@@ -1,6 +1,6 @@
 {
   "name": "@flockcore/wrtc",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Create a dWeb network flock of peer-to-peer connections using webrtc and a dWeb Tower",
   "contributors": [
     "Jared Rice Sr. <jared@dwebs.io>",
@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@dwcore/dws2": "dwcore/dws2#master",
-    "@dwebs/peer": "distributedwebs/peer#master",
+    "@dwebs/peer": "*",
     "cuid": "^1.2.4",
     "debug": "^2.2.0",
     "inherits": "^2.0.1",
